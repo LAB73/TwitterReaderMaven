@@ -141,6 +141,8 @@ public class TwitterReader {
 					for (TweetListener listener : listeners) {
 						listener.tweetUpdate(batchList);
 					}
+					System.out.println("Sending update");
+
 					Logger.debug("Sending update");				
 					batchList.clear();
 				}

@@ -3,6 +3,8 @@ import Helpers.Animation;
 import TwitterReader.TwitterReader;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Main {
@@ -49,10 +51,33 @@ public class Main {
     }
 
     private static void startReader(String search){
+        System.out.println("Enter which reader you would like to execute: \n 1 for LiveReader \n 2 for HistoriousReader");
+        String readerInput = reader.nextLine();
         System.err.println("___ STARTING READER ___");
         TwitterReader tr = new TwitterReader();
         Worker w = new Worker();
         tr.addListener(w);
-        tr.startLiveReader(search);
+
+        switch (readerInput){
+            case "1":
+                tr.startLiveReader(search);
+                break;
+            case "2":
+                System.out.println("Which date u would like to start with. (e.g YYYY-MM-DD)");
+                String start = reader.nextLine();
+                System.out.println("Which date u would like to end with. (e.g YYYY-MM-DD)");
+                String end = reader.nextLine();
+                tr.startHistoriousReading(
+                        start,
+                        end,
+                        search,
+                        ""
+                );
+                break;
+            default:
+                break;
+        }
     }
+
+
 }
