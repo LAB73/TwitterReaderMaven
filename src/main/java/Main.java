@@ -63,9 +63,9 @@ public class Main {
                 tr.startLiveReader(search);
                 break;
             case "2":
-                System.out.println("Which date u would like to start with. (e.g YYYY-MM-DD)");
+                System.out.println("Which date would you like to start with. (e.g YYYY-MM-DD)");
                 String start = reader.nextLine();
-                System.out.println("Which date u would like to end with. (e.g YYYY-MM-DD)");
+                System.out.println("Which date would you like to end with. (e.g YYYY-MM-DD)");
                 String end = reader.nextLine();
                 tr.startHistoriousReading(
                         start,
