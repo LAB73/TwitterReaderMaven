@@ -20,13 +20,13 @@ public class SQLManager {
 
     public void createTableIfNotExists(String tableName){
         String sql = "CREATE TABLE IF NOT EXISTS " + tableName + " (\n"
-                + "	tweetPath varchar(255),\n"
+                + "tweetPath varchar(255),\n"
                 + "	likes int,\n"
                 + "	retweets int,\n"
                 + "	replies int,\n"
                 + "	date text,\n"
-                + "	text varchar(255)\n"
-                + ");";
+                + "	text varchar(255),\n"
+                + "unique(tweetPath));";
 
         try {
             Statement stmt = c.createStatement();
