@@ -13,6 +13,7 @@ import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.sql.SQLOutput;
 import java.util.*;
 
 
@@ -126,7 +127,12 @@ public class TwitterReader {
 //						Logger.error("Timeout by twitter retry - switching Proxy - " + proxy);
 //						proxies.reportTimedOut(proxy);
 //						proxy = proxies.getNew();
+						System.err.println("___ Finished Reading ___ " + items.length());
+						System.exit(0);
 						continue;
+					}else if(items.length() == 0) {
+						System.err.println("___ Finished Reading ___");
+						System.exit(0);
 					}else {
 						rateOk = true;
 					}
@@ -141,7 +147,7 @@ public class TwitterReader {
 					for (TweetListener listener : listeners) {
 						listener.tweetUpdate(batchList);
 					}
-					System.out.println("Sending update");
+					System.out.println("Sending update " + batchList.size());
 
 					Logger.debug("Sending update");				
 					batchList.clear();
@@ -241,6 +247,7 @@ public class TwitterReader {
 //			Logger.error(e);
 //			
 		} catch (Exception e) {
+
 			Logger.error(e);
 		}
 		return "";

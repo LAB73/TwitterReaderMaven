@@ -1,0 +1,25 @@
+
+b
+java:S2095<"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÊõŞàşÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜€S
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ÆÏ¬
+D
+java:S2115")Add password protection to this database.(Õ±ê’üÿÿÿÿ
+]
+java:S2095;"GUse try-with-resources or close this "Statement" in a "finally" clause.(—ıµ•
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(•«€Æ
+U
+java:S2479":Remove the non-escaped \u0009 character from this literal.(”­Œ™ùÿÿÿÿ
+I
+java:S11449".Remove this unused private "showTable" method.(•ŒÌ˜ùÿÿÿÿ
+U
+java:S2479":Remove the non-escaped \u0009 character from this literal.(„¼ÂÛşÿÿÿÿ
+]
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(—ıµ•
+N	java:S106"9Replace this use of System.out or System.err by a logger.(®à´
+P
+java:S2479":Remove the non-escaped \u0009 character from this literal.(×ŞŠ
+]
+java:S20950"GUse try-with-resources or close this "Statement" in a "finally" clause.(—ıµ•

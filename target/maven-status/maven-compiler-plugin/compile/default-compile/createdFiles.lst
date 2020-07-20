@@ -1,0 +1,12 @@
+Main.class
+DataReading/DataModel.class
+TwitterReader/TwitterReader.class
+DataReading/Worker.class
+TwitterReader/Proxies.class
+TwitterReader/TwitterReader$2.class
+TwitterReader/Tweet.class
+TwitterReader/TwitterReader$1.class
+Helpers/Animation.class
+Database/SQLManager.class
+TwitterReader/TweetListener.class
+DataReading/SocialMinerAdapter.class

@@ -1,0 +1,18 @@
+
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(ßîáÖ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(­ªÍ°ùÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ÄÛ¥¢ûÿÿÿÿ
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¸íöÖüÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(­ıv
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(¾íÂÈøÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ßÚ±!
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(±§½ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(şæÛÎøÿÿÿÿ
+a
+java:S1764"KCorrect one of the identical sub-expressions on both sides of operator "=="(”´”Ÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ú®èÅ
+M	java:S106?"9Replace this use of System.out or System.err by a logger.(‚úÒU
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(µ Æ×ûÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(Îì

@@ -1,0 +1,56 @@
+
+Q	java:S125l"<This block of commented-out lines of code should be removed.(“èÆÒ
+2
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ
+m
+java:S3776\"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Û½‰Óúÿÿÿÿ
+V	java:S125t"<This block of commented-out lines of code should be removed.(†®É˜üÿÿÿÿ
+R	java:S125ï"<This block of commented-out lines of code should be removed.(ö®˜ï
+O	java:S106"9Replace this use of System.out or System.err by a logger.(²§°ÿ
+s	java:S135g"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+G
+java:S1874O",Remove this use of "stop"; it is deprecated.(ù×á·ùÿÿÿÿ
+s	java:S135n"YReduce the total number of break and continue statements in this loop to use at most one.(£·¿£ıÿÿÿÿ
+W	java:S125´"<This block of commented-out lines of code should be removed.(îéÚüıÿÿÿÿ
+>
+java:S1604;"(Make this anonymous inner class a lambda(Ò†É¼
+W	java:S125¹"<This block of commented-out lines of code should be removed.(Áç åùÿÿÿÿ
+R	java:S125»"<This block of commented-out lines of code should be removed.(ôµ««
+W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(Éˆê¸ûÿÿÿÿ
+d
+java:S3252­"MUse static access with "java.net.HttpURLConnection" for "setFollowRedirects".(ĞÙ£š
+h
+java:S2095×"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(‘÷Ôñıÿÿÿÿ
+G
+java:S1612O",Replace this lambda with a method reference.(ù×á·ùÿÿÿÿ
+8
+java:S1643Ò"Use a StringBuilder instead.(øùô üÿÿÿÿ
+e
+java:S1192+"ODefine a constant instead of duplicating this literal "Sending update" 4 times.(²§°ÿ
+2
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ
+2
+java:S3626œ"Remove this redundant jump.(ÉŠ©ƒ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®«âê
+L
+java:S1854ş"5Remove this useless assignment to local variable "s".(—Àå
+R	java:S125€"<This block of commented-out lines of code should be removed.(ÆÜè®
+V	java:S125~"<This block of commented-out lines of code should be removed.(ÒöŠëşÿÿÿÿ
+R	java:S125¿"<This block of commented-out lines of code should be removed.(¡Õ±š
+G
+java:S1874K",Remove this use of "stop"; it is deprecated.(×ö£¿ÿÿÿÿÿ
+S
+java:S2589Ö"7Remove this expression which always evaluates to "true"(™Ùƒâÿÿÿÿÿ
+W	java:S125Ã"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+W	java:S125Á"<This block of commented-out lines of code should be removed.(ĞƒÊÿÿÿÿÿ
+M
+java:S3655J"7Call "Optional#isPresent()" before accessing the value.(èã£
+=
+java:S1481ş"&Remove this unused "s" local variable.(—Àå
+2
+java:S3626›"Remove this redundant jump.(ÉŠ©ƒ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(²§°ÿ
+@
+java:S1481f"*Remove this unused "count" local variable.(æÕ¿¼
+a
+java:S1155‚">Use isEmpty() to check whether the collection is empty or not.(ƒ¤ãşÿÿÿÿ8îî²‹µ.

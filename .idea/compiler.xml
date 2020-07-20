@@ -10,5 +10,8 @@
         <module name="TwitterReaderMaven" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TwitterReaderMaven" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
